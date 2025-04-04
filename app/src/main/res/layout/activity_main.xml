@@ -5,10 +5,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
-<Button
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id = "@+id/guzik1"
-    android:text="Powiadomienie 1"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:backgroundTint="#ff12ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/guzik1"
+        android:text="Powiadomienie 1"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:backgroundTint="#2323ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/guzik2"
+        android:text="Powiadomienie 2"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:backgroundTint="#ff231f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/guzik3"
+        android:text="Powiadomienie 3"/>
 
 </LinearLayout>
