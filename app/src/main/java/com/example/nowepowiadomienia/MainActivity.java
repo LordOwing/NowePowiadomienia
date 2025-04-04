@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         guzik = findViewById(R.id.guzik1);
         guzik.setOnClickListener( v -> {
-            sendNotification("Tytuł", "Wiadomość", "1",CHANNEL_ID,  1, "", 0);
+            sendNotification("Tytuł", "Wiadomość Wiadomość Wiadomość  Wiadomość Wiadomość Wiadomość Wiadomość Wiadomość Wiadomość", "1",CHANNEL_ID,  1, "", 0);
         });
         guzik_2 = findViewById(R.id.guzik2);
         guzik_2.setOnClickListener( v -> {
