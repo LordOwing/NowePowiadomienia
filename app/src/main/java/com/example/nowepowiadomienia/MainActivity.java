@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                     .setContentTitle(title)
                     .setContentText(message)
 
-                    .setStyle(new NotificationCompat.BigPictureStyle().bigPicture(bitmap))
+                    .setStyle(new NotificationCompat.BigPictureStyle().bigPicture(bitmap_2))
                     .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                     .setContentIntent(pendingIntent)
                     .setAutoCancel(true);
